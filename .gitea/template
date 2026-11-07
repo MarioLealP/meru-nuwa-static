@@ -1,0 +1,6 @@
+# Gitea template expansion (Meru/nuwa-static -> a new app's repo): $REPO_NAME and friends in these files; anything
+# else with a $ is left as it is (nginx.conf's $uri stays). Gitea removes this file from the new repo.
+deploy/values.yaml
+.gitea/workflows/ci.yaml
+README.md
+site/index.html
